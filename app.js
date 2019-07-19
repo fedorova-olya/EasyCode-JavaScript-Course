@@ -120,3 +120,42 @@ scd = `
     </ul>
 `;
 document.body.innerHTML = scd;
+
+
+
+// 3й день
+
+const user = {
+    firstName: 'Denis',
+    age: 30,
+    isAdmin: true,
+    email: 'test@test.com',
+    'user-address': {
+        city: 'Kharkiv'
+    },
+    skills:['html', 'css', 'js']
+};
+
+let value4;
+let prop = 'skills';
+
+value4 = user.firstName;
+value4 = user['isAdmin'];
+value4 = user['user-address'].city;
+value4 = user['user-address'] ['city'];
+
+value4 = user [prop][0];
+
+user.firstName = 'Den';
+
+user.info = 'some info';
+
+value4 = user.info;
+
+user['user-address'].city = 'Kiev';
+user['user-address'].country = 'Ukraine';
+
+
+
+console.log(value4)
+console.log(user);

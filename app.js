@@ -110,7 +110,7 @@
 //       '<li>Last Name: ' + lastName + '</li>' +
 //       '<li>Age: ' + age + '</li>' + 
 //       '</ul>';
-      
+
 // // console.log(scd);
 
 // //ES6
@@ -175,7 +175,7 @@
 //     text.fillColor = ' white';
 //     text.fontSize = 23;
 //     text.content = 'Люблю Макса'; 
-    
+
 //     var tool = new Tool();
 //     tool.onMouseDown = function ( event ) {
 //         var c = Shape.Circle( event.point.x, event.point.y, 25) ; 
@@ -273,9 +273,73 @@
 // let str = 'Hello';
 // let res = '';
 
-// for (let i = 0; i <str.length; i++) {
-//     res += str[i] + '*';
+// for (let i = 0; i < 10; i++) {
+//     if (i === 5) {
+//         break;
+//     }
+//     console.log(i);
+// };
+
+// for (let i = 0; i < 10; i++) {
+//     if (i === 5) {
+//         continue;
+//     }
+//     console.log(i);
 // }
 
-// console.log(res);
 
+
+
+// let color = ['white', 'black', 'yellow', 'orange'];
+
+// for (let i = 0; i < color.length; i++) {
+//     console.log(color[i]);
+//     color[i] = color[i].toUpperCase();
+// } 
+
+// console.log(color);
+
+const users = [
+    {
+        name: 'Denis',
+        age: 30
+    },
+    {
+        name: 'Oleg',
+        age: 12
+    },
+    {
+        name: 'Maks',
+        age: 25
+    },
+    {
+        name: 'Olga',
+        age: 2
+    },
+];
+
+const usersObj = {
+
+}
+
+// for (let i = 0; i < users.length; i++){
+//     console.log(users[i].age);
+//     usersObj[users[i].name] = users[i];
+// }
+
+// //console.log(usersObj);
+
+// const user = {
+//         name: 'Denis',
+//         age: 30
+// };
+
+// for (let kiss in usersObj) {
+//     console.log(kiss);
+//     console.log(usersObj[kiss]);
+
+// }
+
+for (let value of users) {
+    console.log(value);
+}

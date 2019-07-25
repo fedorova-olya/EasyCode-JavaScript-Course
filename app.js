@@ -299,28 +299,28 @@
 
 // console.log(color);
 
-const users = [
-    {
-        name: 'Denis',
-        age: 30
-    },
-    {
-        name: 'Oleg',
-        age: 12
-    },
-    {
-        name: 'Maks',
-        age: 25
-    },
-    {
-        name: 'Olga',
-        age: 2
-    },
-];
+// const users = [
+//     {
+//         name: 'Denis',
+//         age: 30
+//     },
+//     {
+//         name: 'Oleg',
+//         age: 12
+//     },
+//     {
+//         name: 'Maks',
+//         age: 25
+//     },
+//     {
+//         name: 'Olga',
+//         age: 2
+//     },
+// ];
 
-const usersObj = {
+// const usersObj = {
 
-}
+// }
 
 // for (let i = 0; i < users.length; i++){
 //     console.log(users[i].age);
@@ -340,6 +340,9 @@ const usersObj = {
 
 // }
 
-for (let value of users) {
-    console.log(value);
-}
+// for (let value of users) {
+//     console.log(value);
+// }
+
+//                 функции
+
